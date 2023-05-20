@@ -33,9 +33,9 @@
 
         <!-- delete buttons -->
 
-        <div class="todos-filter">
+        <div class="todo-filtered">
 
-            <button id="delete-selected" class="btn btn-ghost delete-selected-btn">
+            <button id="delete-selection" class="btn btn-ghost delete-selection-btn">
                 Clear Selected
             </button>
             <button id="delete-all" class="btn btn-ghost delete-all-btn">
@@ -45,7 +45,7 @@
 
 
         <!-- this is the dynamic content which dds ups all the todos -->
-        <ul id="all-todos" class="todos-list">
+        <ul id="list-all" class="list-todo">
 
         </ul>
 
@@ -62,10 +62,10 @@
             </div>
 
             <!-- display of  finished and total task  -->
-            <div class="completed-task">
+            <div class="finished-tasks">
                 <p>Finished: <span id="c-count">0</span></p>
             </div>
-            <div class="remaining-task">
+            <div class="pending-tasks">
                 <p>Total Tasks: <span id="r-count">0</span></p>
             </div>
         </div>

@@ -4,8 +4,8 @@ var remList = [];
 var addButton = document.getElementById("add-button")
 var todoInput = document.getElementById("todo-input")
 var deleteAllButton = document.getElementById("delete-all")
-var allTodos = document.getElementById("all-todos");
-var deleteSButton = document.getElementById("delete-selected")
+var allTodos = document.getElementById("list-all");
+var deleteSButton = document.getElementById("delete-selection")
 
 
 //event listners for add and delete
@@ -80,7 +80,7 @@ function add() {
 function addinmain(todoList) {
     allTodos.innerHTML = ""
     todoList.forEach(element => {
-        var x = `<li id=${element.id} class="todo-item">
+        var x = `<li id=${element.id} class="list-item">
     <p id="task"> ${element.complete ? `<strike>${element.task}</strike>` : element.task} </p>
     <div class="todo-actions">
                 <button class="complete btn btn-success">
