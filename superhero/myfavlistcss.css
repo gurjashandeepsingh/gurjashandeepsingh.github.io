@@ -1,0 +1,82 @@
+body{
+    background-image: url('https://w0.peakpx.com/wallpaper/245/265/HD-wallpaper-superheroes-minimalism-superheroes-minimalism.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header  */
+#heading{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   text-align: center;
+    height: auto;
+}
+
+/* heading responsiveness */
+#heading h1{
+    flex-grow: 3;
+}
+
+#heading a{
+    font-size: 1.3rem;
+    padding-right: 3rem;
+}
+
+/* superhero list */
+#list-superhro{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgb(93, 137, 200);
+    opacity: 0.9;
+}
+
+/* childsuperhro - child node of super hero elements */
+.childsuperhro{
+    padding-top: 2rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.childsuperhro img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.childsuperhro img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+.childsuperhro button{
+    width: auto;
+    margin-right: 5%;
+    font-size: 1.5rem;;
+    height: 3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.5s all ease-in-out;
+    background-color: brown;
+}
+
+/* when hovering on button  */
+.childsuperhro button:hover{
+    cursor: pointer;
+    color: grey;
+    
+    background-color: black;
+   
+}
+
+
