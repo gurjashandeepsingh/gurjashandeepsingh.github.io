@@ -1,6 +1,6 @@
 # SuperHeroHunter
 
-You can watch it live at https://rayyanrahman.github.io/SuperHeroHunter/
+
 
 Main Page
 
